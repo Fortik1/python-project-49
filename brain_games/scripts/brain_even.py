@@ -1,29 +1,26 @@
 #!/usr/bin/env python3
 
 import prompt
-import random
+# from ..engine import start_game
+from get_random_number import main
 
 
 def main():
-    step_games = 0
-
     print("Answer \"yes\" if the number is even, otherwise answer \"no\".")
 
-    while step_games < 3:
-        step_games += 1
-        question = random.randint(0, 100)
-        current_answer = "yes" if question % 2 == 0 else "no"
+    question = main()
+    current_answer = "yes" if question % 2 == 0 else "no"
 
-        print(f"question: {question}")
+    print(f"question: {question}")
 
-        user_answer = prompt.string(f"Your answer: ")
+    user_answer = prompt.string(f"Your answer: ")
 
-        if user_answer != current_answer:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{current_answer}'")
-            print("Let's try again, Bill!")
-            return
+    if user_answer != current_answer:
+        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{current_answer}'")
+        print("Let's try again, !")
+        return
 
-    print("Congratulations, Bill!")
+    print("Congratulations, !")
 
 
 if __name__ == '__main__':
