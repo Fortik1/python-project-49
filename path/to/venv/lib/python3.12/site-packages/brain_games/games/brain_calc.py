@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from brain_games.scripts.get_random_number import random_number
-import prompt
 
 SPECIFICATION = "What is the result of the expression?"
 

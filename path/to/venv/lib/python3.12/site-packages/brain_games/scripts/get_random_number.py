@@ -2,6 +2,6 @@
 import random
 
 
-def random_number(max=100):
-    return random.randint(0, max)
+def random_number(max=100, min=0):
+    return random.randint(min, max)
 
