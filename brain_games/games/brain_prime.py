@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 from brain_games.scripts.get_random_number import random_number
 
-SPECIFICATION = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
+SPECIFICATION = "Answer \"yes\" if given number is prime. " \
+                "Otherwise answer \"no\"."
 
 
 def is_prime(x):
