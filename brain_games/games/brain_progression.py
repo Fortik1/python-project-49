@@ -24,4 +24,4 @@ def game():
     current_answer = question[miss_number_index]
     question[miss_number_index] = ".."
 
-    return question, str(current_answer)
+    return " ".join(map(str, question)), str(current_answer)

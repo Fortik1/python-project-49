@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17d7ade6-f528-4df8-a814-d63e959d6430" name="Changes" comment="step5" />
+    <list default="true" id="17d7ade6-f528-4df8-a814-d63e959d6430" name="Changes" comment="step5">
+      <change beforePath="$PROJECT_DIR$/brain_games/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/engine.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
