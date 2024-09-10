@@ -22,5 +22,4 @@ def game():
         case "*":
             current_answer = random_number_one * random_number_two
 
-
     return question, str(current_answer)
