@@ -1,2 +1,4 @@
 .venv
-myenv
+dist/
+__pycache__/
+get-pip
