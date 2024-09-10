@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 import prompt
-from brain_games.scripts.brain_games import main
+from brain_games.cli import welcome_user
 
 
 def start_game(game_rules):
+    print("Welcome to the Brain Games!")
+    user_name = welcome_user()
+    print(f"hello, {user_name}!")
+
     max_step_game = 3
 
-    user_name = main()
     print(game_rules.SPECIFICATION)
 
     for _ in range(max_step_game):
