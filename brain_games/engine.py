@@ -14,7 +14,7 @@ def start_game(game_rules):
 
     for _ in range(max_step_game):
         question, current_answer = game_rules.game()
-        print(f"question: {question}")
+        print(f"Question: {question}")
 
         user_answer = prompt.string("Your answer: ")
 
